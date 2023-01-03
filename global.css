@@ -1,0 +1,48 @@
+/* Text center */
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/* Colors */
+.bg-bay-gray{
+    background: rgb(75, 75, 75);
+}
+.bg-bay-red{
+    background: rgb(151, 16, 16);
+}
+.container{
+    
+    margin:auto;
+
+}
+/*Buttons*/
+.btn{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.btn-primary{
+    font-family:  'Balsamiq Sans','Rubik Vinyl',;
+    border: 2px solid;
+    border-radius: 0.3rem;
+    border-color: rgb(180, 180, 180);
+    margin: 1rem;
+    padding: 0.47rem;
+    transition: all 0.7s ease 0s;
+}
+.btn-primary :hover{
+    font-family:  'Balsamiq Sans','Rubik Vinyl',;
+    border: 3px solid;
+    border-radius: 0.3rem;
+    background-color: rgb(41, 40, 40);
+    color: rgb(151, 194, 223);
+    margin: 1rem;
+    padding: 0.47rem;
+}

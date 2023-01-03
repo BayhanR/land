@@ -1,0 +1,131 @@
+h1{
+    font-family:  'Balsamiq Sans','Rubik Vinyl',;
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    border: 10px solid rgb(75, 75, 75);
+    border-radius: 20px;
+    margin: 10px;
+
+}
+p{
+    text-align: center;
+}
+body h1{
+    text-align: center;
+}
+/*NAVBAR*/
+#navbar{   
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    border-block-color:rgb(75, 75, 75);
+    padding: 10px;
+}
+#navbar ul{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+}
+#navbar ul li a{
+    font-family:  'Balsamiq Sans','Rubik Vinyl',;
+    border: 2px solid;
+    border-radius: 0.3rem;
+    border-color: rgb(180, 180, 180);
+    margin: 1rem;
+    padding: 0.47rem;
+    transition: all 0.7s ease 0s;
+}
+#navbar ul li a:hover{
+    font-family:  'Balsamiq Sans','Rubik Vinyl',;
+    border: 3px solid;
+    border-radius: 0.3rem;
+    background-color: rgb(41, 40, 40);
+    color: rgb(151, 194, 223);
+    margin: 1rem;
+    padding: 0.47rem;
+}
+/*home*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height:auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+   
+    opacity: 0.6;
+    font-style: italic;
+}
+#home a {
+    margin-top: 1.25rem;
+    color:rgb(255, 255, 255);
+    background: rgb(75, 75, 75);
+    border-radius: 2px;
+    border-color: #fff;
+    transition: all 0.7s ease 0s;   
+    padding-inline: 1.5rem;
+}
+#home a:hover {
+    background-color: rgb(189, 182, 182);
+    border-color:rgb(250, 42, 42);
+    color:rgb(250, 42, 42);
+}
+
+
+
+#infor{
+    margin: top 1.5rem; 
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid grey;
+
+}
+#btn-page{
+    margin-top: 1%;
+    margin-left: 23%;
+}
+
+/*Contact page*/
+.contact{
+    background-color: rgb(151, 194, 223);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form-group{     
+    padding: 0.7rem;
+}
+.form-group ::placeholder{
+    text-align: center;
+}
+
+#btn-page{
+
+}
+
